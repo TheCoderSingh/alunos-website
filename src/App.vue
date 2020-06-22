@@ -1,0 +1,48 @@
+<template>
+  <div id="wrap">
+    <Nav />
+    <Promotion />
+    <Features />
+    <Dashboard />
+    <Mobile />
+    <Testimonials />
+    <Team />
+    <Pricing />
+    <Contact />
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Nav from './components/Nav'
+import Features from './components/Features'
+import Footer from './components/Footer'
+import Mobile from './components/Mobile'
+import Testimonials from './components/Testimonials'
+import Team from './components/Team'
+import Pricing from './components/Pricing'
+import Contact from './components/Contact'
+import Promotion from './components/Promotion'
+import Dashboard from './components/Dashboard'
+
+export default {
+  components: {
+    Nav,
+    Promotion,
+    Features,
+    Mobile,
+    Testimonials,
+    Team,
+    Pricing,
+    Contact,
+    Footer,
+    Dashboard,
+  },
+}
+</script>
+
+<style>
+#wrap {
+  padding: 20px;
+}
+</style>
