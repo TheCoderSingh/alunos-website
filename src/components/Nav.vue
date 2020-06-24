@@ -1,37 +1,68 @@
 <template>
   <header>
     <nav>
-      <ul>
-        <li><a href="#" v-scroll-to="'#features'">Features</a></li>
-        <li><a href="#" v-scroll-to="'#team'">Team</a></li>
-        <li><a href="#" v-scroll-to="'#pricing'">Pricing</a></li>
-        <button>Free Trial</button>
-      </ul>
+      <div>
+        <img id="logo" src="../assets/logo_alunos.png" />
+      </div>
+      <q-tabs v-model="tab" inline-label>
+        <q-tab
+          name="features"
+          label="Features"
+          v-scroll-to="'#features'"
+          class="menuItems"
+        />
+        <q-tab
+          name="team"
+          label="Team"
+          v-scroll-to="'#team'"
+          class="menuItems"
+        />
+        <q-tab
+          name="pricing"
+          label="Pricing"
+          v-scroll-to="'#pricing'"
+          class="menuItems"
+        />
+      </q-tabs>
+      <q-btn
+        id="signButton"
+        style="background: white; color: #FF2681"
+        label="Sing In"
+      />
     </nav>
   </header>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped>
 header {
   height: 50px;
-  border: 1px solid black;
-  padding: 0 15px;
+  background-image: url("../assets/alunos_01.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 825px;
+  margin-bottom: -755px;
 }
 nav {
-  height: inherit;
-}
-ul {
   display: flex;
-  justify-content: flex-end;
-  height: inherit;
+  justify-content: space-between;
   align-items: center;
+  color: white;
+  padding: 20px 60px;
 }
-li {
-  list-style: none;
-  margin: 0 20px;
+#logo {
+  height: 40px;
+}
+#signButton {
+  width: 100px;
+}
+.menuItems {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
 }
 </style>
