@@ -19,7 +19,9 @@
           <p>Feature</p>
         </q-card-section>
         <q-card-actions align="center">
-          <q-btn id="secButton" v-scroll-to="'#contact'">Start Free</q-btn>
+          <q-btn rounded id="secButton" v-scroll-to="'#contact'"
+            >Start Free</q-btn
+          >
         </q-card-actions>
       </q-card>
       <q-card id="fullCard" class="my-card " align="center">
@@ -34,7 +36,7 @@
           <p>Feature</p>
         </q-card-section>
         <q-card-actions align="center">
-          <q-btn id="mainButton" label="Buy Now" />
+          <q-btn rounded id="mainButton" label="Buy Now" />
         </q-card-actions>
       </q-card>
       <q-card
@@ -53,7 +55,7 @@
           <p>Feature</p>
         </q-card-section>
         <q-card-actions align="center">
-          <q-btn id="secButton">Contact Us</q-btn>
+          <q-btn rounded id="secButton">Contact Us</q-btn>
         </q-card-actions>
       </q-card>
     </div>
@@ -81,7 +83,7 @@ export default {};
   grid-gap: 30px;
 }
 #fullCard {
-  background-color: #2899f3;
+  background-color: #1280ff;
   color: white;
   padding: 10px 20px;
 }
@@ -101,7 +103,7 @@ h4 {
   width: 100%;
 }
 #secButton {
-  background-color: #2899f3;
+  background-color: #1280ff;
   color: white;
   width: 100%;
 }

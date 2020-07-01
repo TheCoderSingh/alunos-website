@@ -9,10 +9,11 @@
         match students with homestay families in Canada and the U.S.
       </h6>
       <q-btn
+        rounded
         no-caps
-        color="secondary"
         label="Start free trial"
         v-scroll-to="'#contact'"
+        style="background: white; color: #FF2681"
       />
     </div>
   </section>

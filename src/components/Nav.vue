@@ -8,7 +8,7 @@
         <q-tab
           name="features"
           label="Features"
-          v-scroll-to="'#features'"
+          v-scroll-to="'#outDash'"
           class="menuItems"
         />
         <q-tab
@@ -25,9 +25,10 @@
         />
       </q-tabs>
       <q-btn
+        rounded
         id="signButton"
         style="background: white; color: #FF2681"
-        label="Sing In"
+        label="Sign In"
       />
     </nav>
   </header>

@@ -6,9 +6,9 @@
     <Dashboard />
     <Mobile />
     <Testimonials />
-    <Team />
     <Pricing />
     <Contact />
+    <Team />
     <Footer />
   </div>
 </template>

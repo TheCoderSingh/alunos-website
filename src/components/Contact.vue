@@ -1,42 +1,38 @@
 <template>
   <section id="contact">
-    <div id="imgContact" class="q-pa-md"></div>
-    <div id="contactForm" style="max-width: 400px">
-      <h4>Sign Up for Free</h4>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry.
-      </p>
-      <q-form @submit="onSubmit" class="form">
-        <q-input
-          filled
-          v-model="name"
-          label="Your name *"
-          lazy-rules
-          :rules="[val => (val && val.length > 0) || 'Please type your name']"
-        />
-        <q-input
-          filled
-          v-model="email"
-          label="Your email *"
-          lazy-rules
-          :rules="[val => (val && val.length > 0) || 'Please type your email']"
-        />
-
-        <!-- <q-input
-          filled
-          type="textarea"
-          v-model="message"
-          label="Your message *"
-          lazy-rules
-          :rules="[
-            val => (val !== null && val !== '') || 'Please type your message'
-          ]"
-        /> -->
-        <div align="center">
-          <q-btn id="mainButton" label="Submit" type="submit" />
-        </div>
-      </q-form>
+    <div id="imgContact">
+      <img id="formImg" src="../assets/formImg.png" />
+    </div>
+    <div id="formContainer">
+      <div id="contactForm" style="max-width: 400px">
+        <h4>Sign Up for Free</h4>
+        <p id="formSub">
+          Start today to use ALUNOS! Sign-up and use our solution free for 30
+          days.
+        </p>
+        <q-form @submit="onSubmit" class="form">
+          <q-input
+            rounded
+            outlined
+            v-model="email"
+            label="Email"
+            bg-color="white"
+            lazy-rules
+            :rules="[
+              val => (val && val.length > 0) || 'Please type your email'
+            ]"
+          />
+          <div align="center">
+            <q-btn
+              style="background: #1280ff; color: white"
+              rounded
+              id="mainButton"
+              label="Submit"
+              type="submit"
+            />
+          </div>
+        </q-form>
+      </div>
     </div>
   </section>
 </template>
@@ -45,7 +41,6 @@
 export default {
   data() {
     return {
-      name: null,
       email: null,
       accept: false
     };
@@ -68,15 +63,24 @@ export default {
 #contact {
   height: auto;
   display: flex;
-  padding: 30px;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  background-color: lightgray;
+  font-size: 0;
 }
-#imgContact,
-#contactForm {
+#imgContact {
   width: 50%;
   text-align: center;
+}
+#contactForm {
+  width: 100%;
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+}
+#formImg {
+  width: 100%;
 }
 .form {
   margin-top: 20px;
@@ -84,5 +88,14 @@ export default {
 #contactForm {
   display: flex;
   flex-direction: column;
+}
+#formContainer {
+  width: 50%;
+}
+#inputForm {
+  background-color: white;
+}
+#formSub {
+  font-size: 16px;
 }
 </style>

@@ -24,9 +24,8 @@ export default {};
 
 <style>
 footer {
-  border: 1px solid black;
   padding: 30px 60px;
-  margin: 30px 60px 0 60px;
+  margin: 30px 60px;
 }
 #about {
   width: 50%;

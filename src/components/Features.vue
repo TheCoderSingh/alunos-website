@@ -2,42 +2,42 @@
   <section id="features">
     <div id="title">
       <h5 id="textTitle">
-        A system that helps homestay coordinators working at schools or agencies
-        match students with homestay families in Canada and the U.S.
+        ALUNOS helps homestay providers to match students with homestays and
+        improves the communication between students and host-families, making
+        the experience more satisfying for all parties.
       </h5>
     </div>
     <img id="laptop" src="../assets/laptop.png" />
     <div id="featuresContent">
       <div class="featureItem">
-        <h6>Feature 1</h6>
+        <h6>Web Dashboard</h6>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          ALUNOS Web Dashboard helps homestay coordinators to manage students
+          and homestays, and keep track of all necessary information.
         </p>
       </div>
       <div class="featureItem">
-        <h6>Feature 2</h6>
+        <h6>Student App</h6>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          ALUNOS Student App offers a modern and friendly interface through
+          which students can easily communicate with their homestay and have
+          access to information useful to their stay.
         </p>
       </div>
       <div class="featureItem">
-        <h6>Feature 3</h6>
+        <h6>Homestay App</h6>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          ALUNOS Homestay app offers a simple tool for homestays to manage their
+          accommodation and quickly communicate with students and homestay
+          coordinators.
         </p>
       </div>
       <div class="featureItem">
-        <h6>Feature 4</h6>
+        <h6>Connecting all parties</h6>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          Both mobile apps are connected to the homestay coordinators dashboard,
+          and all parties can send and receive information in a fast and safe
+          way.
         </p>
       </div>
     </div>
@@ -55,11 +55,12 @@ export default {};
   flex-direction: column;
   align-items: center;
   padding: 30px 60px;
-  margin-top: 150px;
+  margin-top: 185px;
+  margin-bottom: 30px;
 }
 #title {
   margin: 0px auto 30px auto;
-  width: 60%;
+  width: 65%;
   text-align: center;
 }
 #textTitle {

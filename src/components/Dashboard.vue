@@ -1,43 +1,46 @@
 <template>
-  <section id="dashboard">
-    <div id="dashImgContainer">
-      <img id="dashImg" src="../assets/alunos_02.png" />
-    </div>
-    <div id="dashContent">
-      <div class="dashChildren" id="child1">
-        <h5>Content 1</h5>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
-        </p>
+  <div id="outDash">
+    <h5 id="dashTitle">Web Dashboard Features</h5>
+    <section id="dashboard">
+      <div id="dashImgContainer">
+        <img id="dashImg" src="../assets/alunos_02.png" />
       </div>
-      <div class="dashChildren" id="child2">
-        <h5>Content 2</h5>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
-        </p>
+      <div id="dashContent">
+        <div class="dashChildren" id="child1">
+          <h5>Manage</h5>
+          <p>
+            Easily manage your students and homestays applications and keep
+            track of all necessary information. See student and homestay lists,
+            manage issues and more.
+          </p>
+        </div>
+        <div class="dashChildren" id="child2">
+          <h5>Match</h5>
+          <p>
+            Quickly match the student with the most suitable homestay based in
+            pre-defined criteria by using our automated matching tool, and
+            improve the quality of your matching process.
+          </p>
+        </div>
+        <div class="dashChildren" id="child3">
+          <h5>Communicate</h5>
+          <p>
+            Handle issues reported by students and homestays and easily
+            communicate will all parties. Provide daily tips for the students to
+            help them in their adaptation.
+          </p>
+        </div>
+        <div class="dashChildren" id="child4">
+          <h5>Evaluate</h5>
+          <p>
+            Automate and structure your feedback process and get feedback from
+            students about the homestay they are living, and improve your
+            selection of host-families.
+          </p>
+        </div>
       </div>
-      <div class="dashChildren" id="child3">
-        <h5>Content 3</h5>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
-        </p>
-      </div>
-      <div class="dashChildren" id="child4">
-        <h5>Content 4</h5>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
-        </p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -45,11 +48,26 @@ export default {};
 </script>
 
 <style>
+#outDash {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px 30px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#dashTitle {
+  font-weight: bold;
+  text-align: center;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
 #dashboard {
   height: auto;
   display: flex;
-  padding: 30px 60px 30px 0;
+  /* padding: 30px 60px 30px 0;
   margin-top: 30px;
+  margin-bottom: 30px; */
 }
 #dashImgContainer {
   width: 50%;
@@ -66,8 +84,8 @@ export default {};
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
-  padding-left: 10px;
+  grid-gap: 25px;
+  padding: 70px 10px;
 }
 #dashImg {
   width: 100%;
