@@ -5,8 +5,8 @@
         Providing The Best Homestay Management
       </h3>
       <h6 id="subtitle">
-        A system that helps homestay coordinators working at schools or agencies
-        match students with homestay families in Canada and the U.S.
+        ALUNOS helps companies in Canada to manage homestay-related activities
+        and facilitates communication.
       </h6>
       <q-btn
         rounded
@@ -33,7 +33,7 @@ export default {};
   margin-top: 50px;
 }
 #promotionContent {
-  width: 50%;
+  width: 48%;
   display: flex;
   flex-direction: column;
   justify-content: center;

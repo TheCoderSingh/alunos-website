@@ -25,16 +25,19 @@
         />
       </q-tabs>
       <q-btn
+        type="a"
         rounded
         id="signButton"
         style="background: white; color: #FF2681"
         label="Sign In"
+        href="http://langara.alunos.ca"
       />
     </nav>
   </header>
 </template>
 
 <script>
+import { openURL } from "quasar";
 export default {};
 </script>
 

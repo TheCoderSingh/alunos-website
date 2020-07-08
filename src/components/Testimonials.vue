@@ -6,7 +6,6 @@
       transition-prev="scale"
       transition-next="scale"
       swipeable
-      animated
       control-color="white"
       navigation
       padding
@@ -15,7 +14,9 @@
     >
       <q-carousel-slide name="style" class="column no-wrap flex-center">
         <h4>Testimonials</h4>
-        <p>This is a brief description of the section</p>
+        <p>
+          What companies, students and host-families said about this project
+        </p>
         <div>
           <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
         </div>
@@ -28,6 +29,10 @@
         </div>
       </q-carousel-slide>
       <q-carousel-slide name="tv" class="column no-wrap flex-center">
+        <h4>Testimonials</h4>
+        <p>
+          What companies, students and host-families said about this project
+        </p>
         <div>
           <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
         </div>
@@ -40,6 +45,10 @@
         </div>
       </q-carousel-slide>
       <q-carousel-slide name="layers" class="column no-wrap flex-center">
+        <h4>Testimonials</h4>
+        <p>
+          What companies, students and host-families said about this project
+        </p>
         <div>
           <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
         </div>

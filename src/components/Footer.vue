@@ -4,11 +4,11 @@
       <div id="about">
         <h6>About us</h6>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s. Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s.
+          ALUNOS was created by a team of five developers and two designers -
+          Team Pegasus - for last term the Capstone Project of the Web and
+          Mobile App Design and Development program in Langara College.
+          <br /><br />
+          &copy; 2020 Pegasus
         </p>
       </div>
       <div id="secondSection">

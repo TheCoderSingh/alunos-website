@@ -2,9 +2,9 @@
   <section id="features">
     <div id="title">
       <h5 id="textTitle">
-        ALUNOS helps homestay providers to match students with homestays and
-        improves the communication between students and host-families, making
-        the experience more satisfying for all parties.
+        Match students with homestays and improve the communication between
+        students and host-families, making the experience more satisfying for
+        all parties.
       </h5>
     </div>
     <img id="laptop" src="../assets/laptop.png" />
