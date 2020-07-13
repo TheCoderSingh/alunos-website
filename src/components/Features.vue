@@ -10,14 +10,14 @@
     <img id="laptop" src="../assets/laptop.png" />
     <div id="featuresContent">
       <div class="featureItem">
-        <h6>Web Dashboard</h6>
+        <h6 class="itemTitle">Web Dashboard</h6>
         <p>
           ALUNOS Web Dashboard helps homestay coordinators to manage students
           and homestays, and keep track of all necessary information.
         </p>
       </div>
       <div class="featureItem">
-        <h6>Student App</h6>
+        <h6 class="itemTitle">Student App</h6>
         <p>
           ALUNOS Student App offers a modern and friendly interface through
           which students can easily communicate with their homestay and have
@@ -25,7 +25,7 @@
         </p>
       </div>
       <div class="featureItem">
-        <h6>Homestay App</h6>
+        <h6 class="itemTitle">Homestay App</h6>
         <p>
           ALUNOS Homestay app offers a simple tool for homestays to manage their
           accommodation and quickly communicate with students and homestay
@@ -33,7 +33,7 @@
         </p>
       </div>
       <div class="featureItem">
-        <h6>Connecting all parties</h6>
+        <h6 class="itemTitle">Connecting all parties</h6>
         <p>
           Both mobile apps are connected to the homestay coordinators dashboard,
           and all parties can send and receive information in a fast and safe
@@ -54,17 +54,19 @@ export default {};
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 60px;
-  margin-top: 185px;
-  margin-bottom: 30px;
+  padding: 30px 80px;
+  margin-top: 150px;
+  margin-bottom: 60px;
 }
 #title {
   margin: 0px auto 30px auto;
-  width: 65%;
+  width: 55%;
   text-align: center;
 }
 #textTitle {
-  font-weight: bold;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  color: #3d3d3d;
 }
 h6 {
   margin: 10px 0;
@@ -78,5 +80,9 @@ h6 {
 }
 #laptop {
   margin-top: 60px;
+}
+.itemTitle {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
 }
 </style>

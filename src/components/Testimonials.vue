@@ -13,24 +13,27 @@
       class="text-white shadow-1 rounded-borders"
     >
       <q-carousel-slide name="style" class="column no-wrap flex-center">
-        <h4>Testimonials</h4>
-        <p>
+        <h4 class="containerTitles" style="padding-top:60px">Testimonials</h4>
+        <p style="padding-bottom: 30px; font-weight:bold">
           What companies, students and host-families said about this project
         </p>
         <div>
-          <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
+          <img class="avatarImg" src="../assets/woman.png" />
         </div>
         <div class="q-mt-md text-center">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s.
+          "This industry really needs something like that, everything is going
+          in paper. Your application is covering all the departments: providers,
+          students and families. This solution is a must in this city and this
+          country, I am happy someone is working on that"
+          <br />
+          <p style="font-style:italic">
+            &ndash;Homestay Agency Coordinator - picture and name preserved
+          </p>
         </div>
       </q-carousel-slide>
       <q-carousel-slide name="tv" class="column no-wrap flex-center">
-        <h4>Testimonials</h4>
-        <p>
+        <h4 class="containerTitles" style="padding-top:60px">Testimonials</h4>
+        <p style="padding-bottom: 30px; font-weight:bold">
           What companies, students and host-families said about this project
         </p>
         <div>
@@ -45,8 +48,8 @@
         </div>
       </q-carousel-slide>
       <q-carousel-slide name="layers" class="column no-wrap flex-center">
-        <h4>Testimonials</h4>
-        <p>
+        <h4 class="containerTitles" style="padding-top:60px">Testimonials</h4>
+        <p style="padding-bottom: 30px; font-weight:bold">
           What companies, students and host-families said about this project
         </p>
         <div>
@@ -80,7 +83,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
   margin-bottom: 60px;
   background-color: #1280ff;
   color: white;
@@ -88,5 +90,10 @@ export default {
 #carousel {
   background-color: #1280ff;
   padding: 0 150px;
+  height: auto;
+  padding-bottom: 60px;
+}
+.q-carousel__navigation-inner {
+  margin-bottom: 50px;
 }
 </style>

@@ -4,34 +4,41 @@
       <img id="formImg" src="../assets/formImg.png" />
     </div>
     <div id="formContainer">
-      <div id="contactForm" style="max-width: 400px">
-        <h4>Sign Up for Free</h4>
+      <div id="contactForm">
+        <h4 class="containerTitles">Sign Up for Free</h4>
         <p id="formSub">
-          Start today to use ALUNOS! Sign-up and use our solution free for 30
-          days.
+          Start today to use ALUNOS! Sign-up and enjoy 30 days free or contact
+          us for more information about our platform.
         </p>
-        <q-form @submit="onSubmit" class="form">
-          <q-input
-            rounded
-            outlined
-            v-model="email"
-            label="Email"
-            bg-color="white"
-            lazy-rules
-            :rules="[
-              val => (val && val.length > 0) || 'Please type your email'
-            ]"
-          />
-          <div align="center">
-            <q-btn
-              style="background: #1280ff; color: white"
+        <q-form v-on:submit.prevent="onSubmit" @submit.prevent class="form">
+          <div style="width:75%">
+            <q-input
               rounded
-              id="mainButton"
+              outlined
+              v-model="email"
+              placeholder="Email"
+              bg-color="white"
+              lazy-rules
+              required
+              style="width:100%"
+              :rules="[
+                val => (val && val.length > 0) || 'Please type your email'
+              ]"
+            />
+          </div>
+          <div align="center" style="width:30%; margin-left: -30px;">
+            <q-btn
+              class="priceBtn"
+              rounded
+              id="secButton"
               label="Submit"
               type="submit"
+              no-caps
+              style="width:100%"
             />
           </div>
         </q-form>
+        <div :class="{ show: submitted }">Thank you for your contact!</div>
       </div>
     </div>
   </section>
@@ -42,18 +49,14 @@ export default {
   data() {
     return {
       email: null,
-      accept: false
+      accept: false,
+      submitted: false
     };
   },
 
   methods: {
-    onSubmit() {
-      this.$q.notify({
-        color: "green-4",
-        textColor: "white",
-        icon: "cloud_done",
-        message: "Submitted"
-      });
+    onSubmit: function() {
+      this.submitted = true;
     }
   }
 };
@@ -64,8 +67,7 @@ export default {
   height: auto;
   display: flex;
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
   background-color: lightgray;
   font-size: 0;
 }
@@ -76,14 +78,15 @@ export default {
 #contactForm {
   width: 100%;
   text-align: center;
-  max-width: 400px;
   margin: auto;
+  padding: 0 60px;
 }
 #formImg {
   width: 100%;
 }
 .form {
   margin-top: 20px;
+  display: flex;
 }
 #contactForm {
   display: flex;
@@ -97,5 +100,13 @@ export default {
 }
 #formSub {
   font-size: 16px;
+}
+.q-field__control {
+  height: 36px !important;
+}
+.show {
+  display: block;
+  color: black;
+  font-size: 18px;
 }
 </style>

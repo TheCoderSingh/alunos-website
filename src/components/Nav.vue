@@ -5,31 +5,20 @@
         <img id="logo" src="../assets/logo_alunos.png" />
       </div>
       <q-tabs v-model="tab" inline-label>
-        <q-tab
-          name="features"
-          label="Features"
-          v-scroll-to="'#outDash'"
-          class="menuItems"
-        />
-        <q-tab
-          name="team"
-          label="Team"
-          v-scroll-to="'#team'"
-          class="menuItems"
-        />
-        <q-tab
-          name="pricing"
-          label="Pricing"
-          v-scroll-to="'#pricing'"
-          class="menuItems"
-        />
+        <q-tab name="features" v-scroll-to="'#outDash'" class="menuItems"
+          >Features</q-tab
+        >
+        <q-tab name="pricing" v-scroll-to="'#pricing'" class="menuItems"
+          >Pricing</q-tab
+        >
+        <q-tab name="team" v-scroll-to="'#team'" class="menuItems">Team</q-tab>
       </q-tabs>
       <q-btn
         type="a"
         rounded
         id="signButton"
         style="background: white; color: #FF2681"
-        label="Sign In"
+        label="Login"
         href="http://langara.alunos.ca"
       />
     </nav>
@@ -56,17 +45,21 @@ nav {
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 20px 60px;
+  padding: 20px 80px 20px 70px;
 }
 #logo {
   height: 40px;
 }
 #signButton {
-  width: 100px;
+  width: 120px;
+  text-transform: capitalize;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
 }
 .menuItems {
   text-transform: capitalize;
-  font-weight: bold;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 800;
   color: white;
 }
 </style>

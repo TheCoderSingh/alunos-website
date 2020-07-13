@@ -1,31 +1,34 @@
 <template>
   <div id="outMobile">
-    <h5 id="mobileTitle">Mobile Apps Features</h5>
+    <h4 id="mobileTitle" class="containerTitles">Mobile Apps Features</h4>
     <section id="mobile">
       <div id="mobileContent">
-        <p id="subtitleApp">
+        <p id="subtitleApp" class="itemTitle">
           Students and host-families can now stay connected and informed with
           ALUNOS app.
         </p>
-        <h5>For All</h5>
+        <h5 class="mobSub">For All</h5>
         <p>
           Have a real time updated feed with all last activities, add and manage
           issues, add announcements, communicate with your agent/school and much
           more!
         </p>
-        <h5>Specially for students</h5>
+        <h5 class="mobSub">Specially for students</h5>
         <p>
           Check all the details of your homestay and of the house members,
           inform your preferences and give feedback to your agent/school.
         </p>
-        <h5>Specially for host-families</h5>
+        <h5 class="mobSub">Specially for host-families</h5>
         <p>
           Check all the information about your students, manage your rooms
           availability, add your rules, and manage details of provided meals.
         </p>
         <div id="mobileButtons">
-          <button>GOOGLE PLAY</button>
-          <button>APP STORE</button>
+          <p style="font-weight:bold">Comming soon:</p>
+          <div class="wrapBtn">
+            <img class="downloadBtn" src="../assets/googleBtn.png" />
+            <img class="downloadBtn" src="../assets/appBtn.png" />
+          </div>
         </div>
       </div>
       <div id="mobileImgContainer">
@@ -44,29 +47,19 @@ export default {};
   height: auto;
   display: flex;
   flex-direction: column;
-  padding: 30px 60px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding: 0 80px 30px 80px;
+  margin-bottom: 60px;
 }
 #mobileTitle {
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 #subtitleApp {
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
 }
-#mobileButtons {
-  display: flex;
-  margin: auto 0;
-}
+
 #mobile {
   height: auto;
   display: flex;
-  /* padding: 30px 60px;
-  margin-top: 30px;
-  margin-bottom: 30px; */
 }
 #mobileImgContainer {
   width: 50%;
@@ -85,5 +78,17 @@ export default {};
 }
 h5 {
   margin: 10px 0;
+}
+.mobSub {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+.downloadBtn {
+  width: 120px;
+}
+.wrapBtn {
+  display: flex;
+  align-items: center;
 }
 </style>

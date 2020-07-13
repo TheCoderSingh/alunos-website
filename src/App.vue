@@ -48,5 +48,6 @@ export default {
   width: 100%;
   margin: auto;
   max-width: 1366px;
+  font-family: "Montserrat", sans-serif;
 }
 </style>

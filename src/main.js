@@ -8,6 +8,8 @@ Vue.config.productionTip = false;
 var VueScrollTo = require("vue-scrollto");
 Vue.use(VueScrollTo);
 
+const axios = require("axios").default;
+
 new Vue({
   render: h => h(App),
   mounted: () => document.dispatchEvent(new Event("x-app-rendered"))
