@@ -8,14 +8,24 @@
         ALUNOS improves homestay experiences by helping companies in Canada to
         manage homestay-related activities and faciliting communication.
       </p>
-      <q-btn
-        rounded
-        no-caps
-        label="Start free trial"
-        v-scroll-to="'#contact'"
-        id="trialBtn"
-        style="background: white; color: #FF2681"
-      />
+      <div id="buttonsDiv">
+        <q-btn
+          rounded
+          no-caps
+          label="Start free trial"
+          v-scroll-to="'#contact'"
+          id="trialBtn"
+          style="background: white; color: #FF2681"
+        />
+        <!-- <q-btn
+          rounded
+          no-caps
+          label="Download brochure"
+          v-scroll-to="'#contact'"
+          id="trialBtn"
+          style="background: white; color: #FF2681; margin-left: 35px;"
+        /> -->
+      </div>
     </div>
   </section>
 </template>
@@ -55,5 +65,8 @@ export default {};
 #trialBtn {
   font-weight: 700;
   width: 210px;
+}
+#buttonsDiv {
+  display: flex;
 }
 </style>

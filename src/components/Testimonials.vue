@@ -40,11 +40,16 @@
           <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
         </div>
         <div class="q-mt-md text-center">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s.
+          "Since the begging the whole process was a bit messy ...lots of forms,
+          emails, messages. I received only a few photos of the family and some
+          basic information. My expectations were different from reality, I knew
+          almost nothing about the people in the house. Communication was always
+          a problem. I really like the idea of this app, it could have helped me
+          a lot."
+          <br />
+          <p style="font-style:italic">
+            &ndash;Hosted Student - picture and name preserved
+          </p>
         </div>
       </q-carousel-slide>
       <q-carousel-slide name="layers" class="column no-wrap flex-center">
@@ -56,11 +61,33 @@
           <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
         </div>
         <div class="q-mt-md text-center">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s.
+          "It is really important for me to feel comfortable with my new family
+          and to learn about the country culture as much as possible. I would
+          like to have a good communication with the people in the house and be
+          able to quickly reach my agency in case of problems."
+          <br />
+          <p style="font-style:italic">
+            &ndash;Student - Looking for a homestay - picture and name preserved
+          </p>
+        </div>
+      </q-carousel-slide>
+      <q-carousel-slide name="map" class="column no-wrap flex-center">
+        <h4 class="containerTitles" style="padding-top:60px">Testimonials</h4>
+        <p style="padding-bottom: 30px; font-weight:bold">
+          What companies, students and host-families said about this project
+        </p>
+        <div>
+          <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
+        </div>
+        <div class="q-mt-md text-center">
+          "Sometimes the student profile doesn't match with our family, so it
+          would be very nice if the matching process was improved. It sounds
+          great to have tool to better manage my homestay and to access all
+          information about my students."
+          <br />
+          <p style="font-style:italic">
+            &ndash;Host-family - picture and name preserved
+          </p>
         </div>
       </q-carousel-slide>
     </q-carousel>

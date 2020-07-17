@@ -4,7 +4,7 @@
       <div>
         <img id="logo" src="../assets/logo_alunos.png" />
       </div>
-      <q-tabs v-model="tab" inline-label>
+      <q-tabs inline-label>
         <q-tab name="features" v-scroll-to="'#outDash'" class="menuItems"
           >Features</q-tab
         >

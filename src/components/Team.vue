@@ -5,17 +5,17 @@
     <div id="teamCards">
       <q-card class="my-card" align="center">
         <div>
-          <img class="avatarImg" src="../assets/heloysa.jpg" />
+          <img class="avatarImg" src="../assets/heloysa.png" />
         </div>
         <q-card-section class="teamCards">
           <div class="text-h6" style="font-weight:bold">Heloysa Tancredo</div>
           <div class="text-p">PM and Frontend Developer</div>
         </q-card-section>
         <q-card-actions align="evenly">
-          <a href="https://www.linkedin.com/in/heloysa-tancredo/"
+          <a target="blank" href="https://www.linkedin.com/in/heloysa-tancredo/"
             ><img class="socialImg" src="../../public/linkedin.png"
           /></a>
-          <a href="https://github.com/heloysatancredo"
+          <a target="blank" href="https://github.com/heloysatancredo"
             ><img class="socialImg" src="../../public/github.png"
           /></a>
         </q-card-actions>
@@ -29,11 +29,13 @@
           <div class="text-p">UX/UI Designer</div>
         </q-card-section>
         <q-card-actions align="evenly">
-          <a href="https://www.linkedin.com/in/alexander-vasilyev-web/"
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/alexander-vasilyev-web/"
             ><img class="socialImg" src="../../public/linkedin.png"
           /></a>
-          <a href="https://www.google.com"
-            ><img class="socialImg" src="../../public/github.png"
+          <a target="blank" href="https://www.alexvasilyev.ca"
+            ><img class="alexImg" src="../assets/alex_logo.png"
           /></a>
         </q-card-actions>
       </q-card>
@@ -46,11 +48,13 @@
           <div class="text-p">UX/UI Designer</div>
         </q-card-section>
         <q-card-actions align="evenly">
-          <a href="https://www.linkedin.com/in/parminder-kaur-433939a0/"
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/parminder-kaur-433939a0/"
             ><img class="socialImg" src="../../public/linkedin.png"
           /></a>
-          <a href="https://www.google.com"
-            ><img class="socialImg" src="../../public/github.png"
+          <a target="blank" href="https://onlyparam18f4ae.myportfolio.com"
+            ><img class="portfolioImg" src="../assets/paramLogo.png"
           /></a>
         </q-card-actions>
       </q-card>
@@ -65,10 +69,10 @@
           <div class="text-p">Full Stack Lead Developer</div>
         </q-card-section>
         <q-card-actions align="evenly">
-          <a href="https://www.linkedin.com/in/wbgneto/"
+          <a target="blank" href="https://www.linkedin.com/in/wbgneto/"
             ><img class="socialImg" src="../../public/linkedin.png"
           /></a>
-          <a href="https://github.com/wbgneto"
+          <a target="blank" href="https://github.com/wbgneto"
             ><img class="socialImg" src="../../public/github.png"
           /></a>
         </q-card-actions>
@@ -78,14 +82,14 @@
           <img class="avatarImg" src="../assets/zeinab.png" />
         </div>
         <q-card-section class="teamCards">
-          <div class="text-h6" style="font-weight:bold">Zeinab Ahmadi</div>
+          <div class="text-h6" style="font-weight:bold">Nazanin Ahmadi</div>
           <div class="text-p">Frontend Developer</div>
         </q-card-section>
         <q-card-actions align="evenly">
-          <a href="https://www.linkedin.com/in/nazaninahmadi/"
+          <a target="blank" href="https://www.linkedin.com/in/nazaninahmadi/"
             ><img class="socialImg" src="../../public/linkedin.png"
           /></a>
-          <a href="https://github.com/NazaninAhmadii"
+          <a target="blank" href="https://github.com/NazaninAhmadii"
             ><img class="socialImg" src="../../public/github.png"
           /></a>
         </q-card-actions>
@@ -99,27 +103,27 @@
           <div class="text-p">Frontend Developer</div>
         </q-card-section>
         <q-card-actions align="evenly">
-          <a href="https://www.google.com"
+          <a target="blank" href="https://www.linkedin.com/in/jyotsarupkaur"
             ><img class="socialImg" src="../../public/linkedin.png"
           /></a>
-          <a href="https://www.google.com"
+          <a target="blank" href="https://github.com/jyotsarup"
             ><img class="socialImg" src="../../public/github.png"
           /></a>
         </q-card-actions>
       </q-card>
       <q-card class="my-card" align="center">
         <div>
-          <img class="avatarImg" src="../assets/heloysa.jpg" />
+          <img class="avatarImg" src="../assets/jaskaran.png" />
         </div>
         <q-card-section class="teamCards">
           <div class="text-h6" style="font-weight:bold">Jaskaran Singh</div>
           <div class="text-p">Frontend Developer</div>
         </q-card-section>
         <q-card-actions align="evenly">
-          <a href="https://www.linkedin.com/in/thecodersingh/"
+          <a target="blank" href="https://www.linkedin.com/in/thecodersingh/"
             ><img class="socialImg" src="../../public/linkedin.png"
           /></a>
-          <a href="https://github.com/TheCoderSingh"
+          <a target="blank" href="https://github.com/TheCoderSingh"
             ><img class="socialImg" src="../../public/github.png"
           /></a>
         </q-card-actions>
@@ -166,9 +170,17 @@ export default {};
 .avatarImg {
   border-radius: 50%;
   height: 75px;
+  border: 1px solid lightgray;
+  background-color: lightgray;
 }
 .socialImg {
   height: 50px;
+}
+.portfolioImg {
+  height: 38px;
+}
+.alexImg {
+  height: 42px;
 }
 #logoPegasus {
   height: 60px;

@@ -88,7 +88,7 @@ export default {};
 .dashChildren {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 0 auto;
 }
 h5 {
   margin: 10px 0;

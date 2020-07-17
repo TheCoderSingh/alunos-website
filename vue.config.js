@@ -2,20 +2,16 @@ module.exports = {
   pluginOptions: {
     prerenderSpa: {
       registry: undefined,
-      renderRoutes: [
-        '/'
-      ],
+      renderRoutes: ["/"],
       useRenderEvent: true,
       headless: true,
       onlyProduction: true
     },
     quasar: {
-      importStrategy: 'kebab',
+      importStrategy: "kebab",
       rtlSupport: false
     }
   },
 
-  transpileDependencies: [
-    'quasar'
-  ]
-}
+  transpileDependencies: ["quasar"]
+};
