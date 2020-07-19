@@ -71,11 +71,7 @@ export default {};
 #buttonsDiv {
   display: flex;
 }
-@media screen and (min-width: 1336px) {
-  #mainTitle {
-    font-size: 40px;
-  }
-}
+
 /* @media screen and (max-width: 1096px) {
   #mainTitle {
     font-size: 30px;

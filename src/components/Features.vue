@@ -55,7 +55,7 @@ export default {};
   flex-direction: column;
   align-items: center;
   padding: 30px 80px;
-  margin-top: 150px;
+  margin-top: 14.8vw;
   margin-bottom: 60px;
 }
 #title {
@@ -84,10 +84,5 @@ h6 {
 .itemTitle {
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
-}
-@media screen and (max-width: 1080px) {
-  #features {
-    margin-top: 0;
-  }
 }
 </style>

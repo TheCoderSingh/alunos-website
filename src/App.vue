@@ -64,6 +64,14 @@ html {
 * {
   box-sizing: inherit;
 }
+@media screen and (min-width: 1336px) {
+  #mainTitle {
+    font-size: 40px;
+  }
+  #features {
+    margin-top: 225px;
+  }
+}
 @media screen and (max-width: 1080px) {
   #features {
     margin-top: 0;
@@ -88,6 +96,7 @@ html {
   }
   #mainTitle {
     padding-right: 12px;
+    font-size: 3.4vw;
   }
   #navigation {
     padding: 20px 15px 20px 15px;
@@ -124,6 +133,9 @@ html {
   #promotionContent #subtitle {
     font-size: 16px;
   }
+  #mainTitle {
+    font-size: 3.6vw;
+  }
 }
 @media screen and (max-width: 767px) {
   #promotion {
@@ -155,7 +167,7 @@ html {
     font-size: 22px;
   }
   #mainTitle {
-    font-size: 28px;
+    font-size: 3.8vw;
   }
   #featuresContent {
     grid-template-rows: 1fr 1fr;
@@ -285,7 +297,7 @@ html {
     top: 222px;
   }
   #mainTitle {
-    font-size: 21px;
+    font-size: 5vw;
   }
   #dashContent {
     padding-bottom: 10px;
