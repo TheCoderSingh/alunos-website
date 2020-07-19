@@ -12,10 +12,14 @@
       arrows
       class="text-white shadow-1 rounded-borders"
     >
-      <q-carousel-slide name="style" class="column no-wrap flex-center">
+      <q-carousel-slide
+        name="style"
+        class="column no-wrap flex-center"
+        id="carouselId"
+      >
         <h4 class="containerTitles" style="padding-top:60px">Testimonials</h4>
-        <p style="padding-bottom: 30px; font-weight:bold">
-          What companies, students and host-families said about this project
+        <p style="padding-bottom: 30px; font-weight:bold; text-align: center">
+          What companies, students and host-families say about this project
         </p>
         <div>
           <img class="avatarImg" src="../assets/woman.png" />
@@ -31,31 +35,38 @@
           </p>
         </div>
       </q-carousel-slide>
-      <q-carousel-slide name="tv" class="column no-wrap flex-center">
+      <q-carousel-slide
+        name="tv"
+        class="column no-wrap flex-center"
+        id="carouselId"
+      >
         <h4 class="containerTitles" style="padding-top:60px">Testimonials</h4>
-        <p style="padding-bottom: 30px; font-weight:bold">
-          What companies, students and host-families said about this project
+        <p style="padding-bottom: 30px; font-weight:bold; text-align: center">
+          What companies, students and host-families say about this project
         </p>
         <div>
           <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
         </div>
         <div class="q-mt-md text-center">
-          "Since the begging the whole process was a bit messy ...lots of forms,
-          emails, messages. I received only a few photos of the family and some
-          basic information. My expectations were different from reality, I knew
-          almost nothing about the people in the house. Communication was always
-          a problem. I really like the idea of this app, it could have helped me
-          a lot."
+          "Since the begging the whole process was confuse...lots of forms,
+          emails, messages. I received only a few photos of the family and basic
+          information. My expectations were different, I knew almost nothing
+          about the people in the house, and communication was always a problem.
+          I really like the idea of this app, it could have helped me a lot."
           <br />
           <p style="font-style:italic">
             &ndash;Hosted Student - picture and name preserved
           </p>
         </div>
       </q-carousel-slide>
-      <q-carousel-slide name="layers" class="column no-wrap flex-center">
+      <q-carousel-slide
+        name="layers"
+        class="column no-wrap flex-center"
+        id="carouselId"
+      >
         <h4 class="containerTitles" style="padding-top:60px">Testimonials</h4>
-        <p style="padding-bottom: 30px; font-weight:bold">
-          What companies, students and host-families said about this project
+        <p style="padding-bottom: 30px; font-weight:bold; text-align: center">
+          What companies, students and host-families say about this project
         </p>
         <div>
           <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
@@ -71,10 +82,14 @@
           </p>
         </div>
       </q-carousel-slide>
-      <q-carousel-slide name="map" class="column no-wrap flex-center">
+      <q-carousel-slide
+        name="map"
+        class="column no-wrap flex-center"
+        id="carouselId"
+      >
         <h4 class="containerTitles" style="padding-top:60px">Testimonials</h4>
-        <p style="padding-bottom: 30px; font-weight:bold">
-          What companies, students and host-families said about this project
+        <p style="padding-bottom: 30px; font-weight:bold; text-align: center">
+          What companies, students and host-families say about this project
         </p>
         <div>
           <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />

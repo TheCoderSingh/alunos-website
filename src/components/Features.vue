@@ -85,4 +85,9 @@ h6 {
   font-family: "Catamaran", sans-serif;
   font-weight: 700;
 }
+@media screen and (max-width: 1080px) {
+  #features {
+    margin-top: 0;
+  }
+}
 </style>

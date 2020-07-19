@@ -1,10 +1,10 @@
 <template>
-  <header>
-    <nav>
+  <header id="headerId">
+    <nav id="navigation">
       <div>
         <img id="logo" src="../assets/logo_alunos.png" />
       </div>
-      <q-tabs inline-label>
+      <q-tabs inline-label id="navOptions">
         <q-tab name="features" v-scroll-to="'#outDash'" class="menuItems"
           >Features</q-tab
         >
@@ -32,11 +32,12 @@ export default {};
 
 <style scoped>
 header {
-  height: 50px;
+  /* height: 50px; */
   background-image: url("../assets/alunos_01.png");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: contain;
   padding-bottom: 825px;
   margin-bottom: -755px;
 }

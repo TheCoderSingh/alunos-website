@@ -1,9 +1,9 @@
 <template>
   <section id="promotion">
     <div id="promotionContent">
-      <h3 id="mainTitle">
+      <h4 id="mainTitle">
         Providing The Best Homestay Management
-      </h3>
+      </h4>
       <p id="subtitle">
         ALUNOS improves homestay experiences by helping companies in Canada to
         manage homestay-related activities and faciliting communication.
@@ -37,11 +37,11 @@ export default {};
 <style>
 #promotion {
   height: auto;
-  padding: 30px 80px;
+  padding: 20px 80px;
   display: flex;
   z-index: 1;
   color: white;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   font-family: "Catamaran", sans-serif;
 }
 #promotionContent {
@@ -54,8 +54,10 @@ export default {};
 #mainTitle {
   font-weight: 900;
   margin-bottom: 15px;
-  font-size: 2.7rem;
+  font-size: 3.3vw;
   padding-right: 60px;
+  margin-top: 0;
+  line-height: 50px;
 }
 #subtitle {
   margin-bottom: 15px;
@@ -69,4 +71,14 @@ export default {};
 #buttonsDiv {
   display: flex;
 }
+@media screen and (min-width: 1336px) {
+  #mainTitle {
+    font-size: 40px;
+  }
+}
+/* @media screen and (max-width: 1096px) {
+  #mainTitle {
+    font-size: 30px;
+  }
+} */
 </style>
