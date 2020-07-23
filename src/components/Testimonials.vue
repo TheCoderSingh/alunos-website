@@ -22,7 +22,7 @@
           What companies, students and host-families say about this project
         </p>
         <div>
-          <img class="avatarImg" src="../assets/woman.png" />
+          <img class="avatarImg" src="../assets/agent.png" />
         </div>
         <div class="q-mt-md text-center">
           "This industry really needs something like that, everything is going
@@ -45,7 +45,7 @@
           What companies, students and host-families say about this project
         </p>
         <div>
-          <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
+          <img class="avatarImg" src="../assets/student1.png" />
         </div>
         <div class="q-mt-md text-center">
           "Since the begging the whole process was confuse...lots of forms,
@@ -69,7 +69,7 @@
           What companies, students and host-families say about this project
         </p>
         <div>
-          <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
+          <img class="avatarImg" src="../assets/student2.png" />
         </div>
         <div class="q-mt-md text-center">
           "It is really important for me to feel comfortable with my new family
@@ -92,7 +92,7 @@
           What companies, students and host-families say about this project
         </p>
         <div>
-          <img class="avatarImg" src="https://cdn.quasar.dev/img/avatar.png" />
+          <img class="avatarImg" src="../assets/family.png" />
         </div>
         <div class="q-mt-md text-center">
           "Sometimes the student profile doesn't match with our family, so it

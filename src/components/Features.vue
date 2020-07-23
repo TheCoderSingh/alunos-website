@@ -55,8 +55,9 @@ export default {};
   flex-direction: column;
   align-items: center;
   padding: 30px 80px;
-  margin-top: 14.8vw;
+  margin-top: 14.3vw;
   margin-bottom: 60px;
+  max-width: 1920px;
 }
 #title {
   margin: 0px auto 30px auto;

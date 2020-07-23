@@ -1,9 +1,7 @@
 <template>
   <section id="promotion">
     <div id="promotionContent">
-      <h4 id="mainTitle">
-        Providing The Best Homestay Management
-      </h4>
+      <h4 id="mainTitle">Providing The Best <br />Homestay Management</h4>
       <p id="subtitle">
         ALUNOS improves homestay experiences by helping companies in Canada to
         manage homestay-related activities and faciliting communication.
@@ -17,14 +15,6 @@
           id="trialBtn"
           style="background: white; color: #FF2681"
         />
-        <!-- <q-btn
-          rounded
-          no-caps
-          label="Download brochure"
-          v-scroll-to="'#contact'"
-          id="trialBtn"
-          style="background: white; color: #FF2681; margin-left: 35px;"
-        /> -->
       </div>
     </div>
   </section>
@@ -71,10 +61,4 @@ export default {};
 #buttonsDiv {
   display: flex;
 }
-
-/* @media screen and (max-width: 1096px) {
-  #mainTitle {
-    font-size: 30px;
-  }
-} */
 </style>

@@ -46,30 +46,121 @@ export default {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: auto;
-  max-width: 1366px;
+  margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   align-items: stretch;
 }
 body,
 html {
-  margin: 0;
+  margin: 0 auto !important;
   padding: 0;
   width: 100%;
-  height: 100%;
   box-sizing: border-box;
   min-width: 375px;
+  max-width: 1920px;
 }
 
 * {
   box-sizing: inherit;
 }
-@media screen and (min-width: 1336px) {
+
+@media screen and (min-width: 1367px) {
+  body {
+    background-image: url("assets/alunos_01.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    font-size: 15px !important;
+  }
+  nav {
+    padding: 20px 11vw 20px 10.5vw !important;
+  }
+  #headerId {
+    background-image: none !important;
+  }
   #mainTitle {
     font-size: 40px;
   }
   #features {
     margin-top: 225px;
+    padding: 30px 11vw;
+  }
+  #promotion {
+    padding: 5vw 11vw;
+  }
+  #outDash {
+    padding: 0 0 30px 0;
+  }
+  #dashContent {
+    padding: 70px 11vw 70px 40px;
+  }
+  #outMobile {
+    padding: 0 11vw 30px 11vw;
+  }
+  #contactForm {
+    width: 75%;
+  }
+  #formSub {
+    margin-top: 20px;
+  }
+  footer {
+    padding: 30px 11vw !important;
+  }
+  #subtitleApp {
+    width: 85%;
+  }
+  #cards {
+    grid-gap: 75px;
+  }
+  #teamCards,
+  #teamCards2 {
+    grid-gap: 45px;
+  }
+  #otherCards,
+  #fullCard {
+    padding: 10px 20px 20px 20px;
+  }
+}
+
+@media screen and (min-width: 1580px) {
+  nav {
+    padding: 20px 17vw 20px 16.5vw !important;
+  }
+  #wrap {
+    padding: 15px 0 0 0;
+  }
+  #promotion {
+    padding: 5.5vw 17vw;
+  }
+  #features {
+    margin-top: 19.5vw;
+    padding: 30px 17vw;
+  }
+  #outDash {
+    padding: 0 0 30px 0;
+  }
+  #dashContent {
+    padding: 70px 17vw 70px 40px;
+  }
+  #outMobile {
+    padding: 0 17vw 30px 17vw;
+  }
+  #carouselId {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  footer {
+    padding: 30px 17vw !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #features {
+    margin-top: 350px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  #features #title {
+    width: 55%;
   }
 }
 @media screen and (max-width: 1080px) {
@@ -85,7 +176,7 @@ html {
   }
   #promotion {
     padding: 20px 25px;
-    margin-top: -200px;
+    margin-top: -50px;
     margin-bottom: 9vw;
   }
   #features #title {
@@ -141,7 +232,7 @@ html {
   #promotion {
     padding-bottom: 60px;
     margin-bottom: 0;
-    margin-top: -230px;
+    margin-top: -80px;
   }
   #promotionContent #subtitle {
     padding-right: 2px;
@@ -224,7 +315,7 @@ html {
   #promotion {
     padding-bottom: 62px;
     margin-bottom: 0;
-    margin-top: -255px;
+    margin-top: -100px;
   }
   #mainTitle {
     font-size: 22px;
@@ -297,7 +388,7 @@ html {
     top: 222px;
   }
   #mainTitle {
-    font-size: 5vw;
+    font-size: 4vw;
   }
   #dashContent {
     padding-bottom: 10px;
@@ -314,7 +405,7 @@ html {
 }
 @media screen and (max-width: 400px) {
   #mainTitle {
-    font-size: 21px;
+    font-size: 17px;
     padding-right: 0;
   }
   #signButton {

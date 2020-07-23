@@ -31,12 +31,10 @@ export default {};
 </script>
 
 <style scoped>
-header {
-  /* height: 50px; */
+#headerId {
   background-image: url("../assets/alunos_01.png");
   background-repeat: no-repeat;
   background-position: top;
-  /* background-size: cover; */
   background-size: contain;
   padding-bottom: 825px;
   margin-bottom: -755px;

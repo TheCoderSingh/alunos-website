@@ -36,7 +36,9 @@
       <q-card id="fullCard" class="my-card priceCard" align="center">
         <q-card-section>
           <div class="containerTitles priceTitle">Full</div>
-          <div class="text-subtitle2" style="font-weight:bold">$60/mo</div>
+          <div class="text-subtitle2" style="font-weight:bold">
+            $60/mo + $10 per user
+          </div>
         </q-card-section>
         <q-card-section>
           <p>
