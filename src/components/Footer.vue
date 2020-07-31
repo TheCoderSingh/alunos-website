@@ -55,7 +55,7 @@
             <p>
               Know all the details of our solution.
             </p>
-            <q-form @submit.prevent="download" class="form">
+            <q-form @submit.prevent="openPDF" class="form">
               <div style="width:75%">
                 <q-input
                   rounded
@@ -93,32 +93,34 @@ const axios = require("axios").default;
 export default {
   data() {
     return {
-      email: null,
-      url:
-        "https://images.unsplash.com/photo-1594976382948-12e3439721b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+      email: null
+      // url: "http://alunos.ca/alunos.pdf.zip"
     };
   },
 
   methods: {
-    forceFileDownload(response) {
-      const url = window.URL.createObjectURL(new Blob([response.data]));
-      const link = document.createElement("a");
-      link.href = url;
-      link.setAttribute("download", "file.png"); //or any other extension
-      document.body.appendChild(link);
-      link.click();
-    },
-    download: function() {
-      axios({
-        method: "get",
-        url: this.url,
-        responseType: "arraybuffer"
-      })
-        .then(response => {
-          this.forceFileDownload(response);
-        })
-        .catch(() => console.log("error occured"));
+    openPDF() {
+      window.open("http://alunos.ca/alunos.pdf.zip");
     }
+    // forceFileDownload(response) {
+    //   const url = window.URL.createObjectURL(new Blob([response.data]));
+    //   const link = document.createElement("a");
+    //   link.href = url;
+    //   link.setAttribute("download", "alunos.pdf.zip"); //or any other extension
+    //   document.body.appendChild(link);
+    //   link.click();
+    // },
+    // download: function() {
+    //   axios({
+    //     method: "get",
+    //     url: this.url,
+    //     responseType: "arraybuffer"
+    //   })
+    //     .then(response => {
+    //       this.forceFileDownload(response);
+    //     })
+    //     .catch(() => console.log("error occured"));
+    // }
   }
 };
 </script>

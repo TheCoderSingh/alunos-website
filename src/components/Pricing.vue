@@ -37,7 +37,7 @@
         <q-card-section>
           <div class="containerTitles priceTitle">Full</div>
           <div class="text-subtitle2" style="font-weight:bold">
-            $60/mo + $10 per user
+            $59/mo + $9 per user
           </div>
         </q-card-section>
         <q-card-section>

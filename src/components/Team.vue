@@ -34,7 +34,7 @@
             href="https://www.linkedin.com/in/alexander-vasilyev-web/"
             ><img class="socialImg" src="../../public/linkedin.png"
           /></a>
-          <a target="blank" href="https://www.alexvasilyev.ca"
+          <a target="blank" href="https://alexvasilyev.ca"
             ><img class="alexImg" src="../assets/alex_logo.png"
           /></a>
         </q-card-actions>
@@ -53,7 +53,7 @@
             href="https://www.linkedin.com/in/parminder-kaur-433939a0/"
             ><img class="socialImg" src="../../public/linkedin.png"
           /></a>
-          <a target="blank" href="https://onlyparam18f4ae.myportfolio.com"
+          <a target="blank" href="https://parminderkaur18.myportfolio.com/"
             ><img class="portfolioImg" src="../assets/paramLogo.png"
           /></a>
         </q-card-actions>

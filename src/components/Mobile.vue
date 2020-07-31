@@ -32,7 +32,8 @@
         </div>
       </div>
       <div id="mobileImgContainer">
-        <img id="mobileImg" src="../assets/mobileImg.png" />
+        <!-- <img id="mobileImg" src="../assets/mobileImg.png" /> -->
+        <img id="mobileImg" src="../assets/mobiles.png" />
       </div>
     </section>
   </div>
@@ -68,7 +69,7 @@ export default {};
 }
 
 #mobileImg {
-  max-width: 300px;
+  max-width: 500px;
   height: 500px;
 }
 #mobileContent {
@@ -85,7 +86,8 @@ h5 {
   font-size: 20px;
 }
 .downloadBtn {
-  width: 120px;
+  /* width: 120px; */
+  height: 40px;
 }
 .wrapBtn {
   display: flex;
